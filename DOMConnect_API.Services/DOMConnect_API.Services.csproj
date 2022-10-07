@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.22.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DOMConnect_API.Database\DOMConnect_API.Database.csproj" />
+    <ProjectReference Include="..\DOMConnect_API.Redis\DOMConnect_API.Redis.csproj" />
+    <ProjectReference Include="..\DOMConnect_API.Utilities\DOMConnect_API.Utilities.csproj" />
+  </ItemGroup>
+
+</Project>

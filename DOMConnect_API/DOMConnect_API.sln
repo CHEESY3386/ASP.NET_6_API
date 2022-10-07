@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOMConnect_API", "DOMConnect_API.csproj", "{E811C1CC-5601-4423-98D2-D22F8D453780}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOMConnect_API.Services", "..\DOMConnect_API.Services\DOMConnect_API.Services.csproj", "{0033E7D9-F856-474C-B0A2-BA357AE69A8C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOMConnect_API.IO", "..\DOMConnect_API.IO\DOMConnect_API.IO.csproj", "{D44281F1-19DF-4BF5-B626-87725063A552}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOMConnect_API.Redis", "..\DOMConnect_API.Redis\DOMConnect_API.Redis.csproj", "{8BEA50AB-0BAF-4CBD-8BDC-036AB8CE13D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOMConnect_API.Database", "..\DOMConnect_API.Database\DOMConnect_API.Database.csproj", "{4E2C20B7-1630-43F8-A04B-66FEE54DEF51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DOMConnect_API.Utilities", "..\DOMConnect_API.Utilities\DOMConnect_API.Utilities.csproj", "{56B2AC54-90E6-41D0-9DB4-99435C47C9FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E811C1CC-5601-4423-98D2-D22F8D453780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E811C1CC-5601-4423-98D2-D22F8D453780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E811C1CC-5601-4423-98D2-D22F8D453780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E811C1CC-5601-4423-98D2-D22F8D453780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0033E7D9-F856-474C-B0A2-BA357AE69A8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0033E7D9-F856-474C-B0A2-BA357AE69A8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0033E7D9-F856-474C-B0A2-BA357AE69A8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0033E7D9-F856-474C-B0A2-BA357AE69A8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D44281F1-19DF-4BF5-B626-87725063A552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D44281F1-19DF-4BF5-B626-87725063A552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D44281F1-19DF-4BF5-B626-87725063A552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D44281F1-19DF-4BF5-B626-87725063A552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEA50AB-0BAF-4CBD-8BDC-036AB8CE13D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEA50AB-0BAF-4CBD-8BDC-036AB8CE13D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEA50AB-0BAF-4CBD-8BDC-036AB8CE13D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEA50AB-0BAF-4CBD-8BDC-036AB8CE13D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E2C20B7-1630-43F8-A04B-66FEE54DEF51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E2C20B7-1630-43F8-A04B-66FEE54DEF51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E2C20B7-1630-43F8-A04B-66FEE54DEF51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E2C20B7-1630-43F8-A04B-66FEE54DEF51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B2AC54-90E6-41D0-9DB4-99435C47C9FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B2AC54-90E6-41D0-9DB4-99435C47C9FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B2AC54-90E6-41D0-9DB4-99435C47C9FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B2AC54-90E6-41D0-9DB4-99435C47C9FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8E3EAA9-9B66-4CC4-90B7-9E07E36D61C7}
+	EndGlobalSection
+EndGlobal
